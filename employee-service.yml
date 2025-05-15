@@ -1,5 +1,5 @@
 spring:
-  message: hello, this is a message from employee
+  message: hello, this is a message from employee spring cloud bus
   datasource:
     url: jdbc:mysql://localhost:3306/employee_db
     username: root
