@@ -1,4 +1,5 @@
 spring:
+  message: hello, this is a message from employee
   datasource:
     url: jdbc:mysql://localhost:3306/employee_db
     username: root
