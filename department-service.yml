@@ -20,6 +20,13 @@ eureka:
     prefer-ip-address: true
     ip-address: 172.23.16.1
     instance-id: ${spring.application.name}:${server.port}
+# OpenAPI Configuration
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    operationsSorter: method
 
 
 
